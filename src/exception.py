@@ -1,7 +1,7 @@
 import sys
-sys.path.append('src/logger.py')
-import logger
-from logger import logging
+sys.path.append('F:\FAHIM\Data Science\youtube ml project\krish_video')
+import src.logger
+import logging
 from datetime import datetime
 
 
