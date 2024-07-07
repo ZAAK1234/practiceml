@@ -1,7 +1,7 @@
 
 import os
 import sys
-sys.path.append(os.path.dirname(os.path.abspath('F:\FAHIM\Data Science\youtube ml project\krish_video\src')))
+sys.path.append(os.path.dirname(os.path.abspath('F:\FAHIM\Data Science\y_ml_project\k_v\src')))
 
 import src.exception
 from src.exception import CustomException
@@ -47,7 +47,7 @@ class DataIngestion:
 
             test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
 
-            logging.info("Inmgestion of the data iss completed")
+            logging.info("Ingestion of the data is completed")
 
             return (
                 self.ingestion_config.train_data_path,

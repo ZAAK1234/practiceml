@@ -1,7 +1,7 @@
 import sys
 import os
 from dataclasses import dataclass
-sys.path.append(os.path.dirname(os.path.abspath('F:\FAHIM\Data Science\youtube ml project\krish_video\src')))
+sys.path.append(os.path.dirname(os.path.abspath('F:\FAHIM\Data Science\y_ml_project\k_v\src')))
 
 import numpy as np
 import pandas as pd

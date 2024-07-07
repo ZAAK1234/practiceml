@@ -1,5 +1,5 @@
 import sys
-sys.path.append('F:\FAHIM\Data Science\youtube ml project\krish_video')
+sys.path.append('F:\FAHIM\Data Science\y_ml_project\k_v')
 import src.logger
 import logging
 from datetime import datetime
